@@ -1,0 +1,88 @@
+
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70vw;
+    margin: 0px auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(12, 12, 12);
+    border-radius: 8px;
+}
+
+header{
+    padding: 20px;
+}
+
+header > .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header > .logo > h1{
+    margin-right: auto;
+    font-size: 40px;
+}
+
+header > .logo >a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header > .logo2 > h1{
+    font-size: 35px;
+}
+
+header > .logo2 > p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main   img{
+    margin: 10px auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 8px solid rgb(142, 134, 134);
+    box-shadow: 0px 0px 10px rgb(11, 11, 11);
+    object-fit: cover;
+    object-position: 50% 50%;
+    gap: 50px;
+    width: calc((100% - 2 * 50px) / 3);
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer > h1{
+    margin-left: 25%;
+}
+
+footer > p{
+    font-size: 30px;
+}
+
+footer > a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}

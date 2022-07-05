@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: rgb(250, 248, 243);
+    text-shadow: 0px 0px 3px rgb(244, 242, 239);
+}
+.head{
+    margin: auto;
+    width: 70vw;
+    min-width: 576px;
+    max-width: 992px;
+    text-align: justify;
+}
+.head_2{
+    margin: 20px auto;
+    width: 70vw;
+    min-width: 576px;
+    max-width: 992px;
+    text-align: justify;
+    
+}
+.Text{
+    margin: 20px auto;
+    width: 70vw;
+    min-width: 576px;
+    max-width: 992px;
+    text-align: justify;
+    padding: 0px 20px 20px 0px;
+    
+}
+.Part{
+    font-size: 1.6rem;
+    padding: 20px 20px 20px 0px;
+    font-family: Calibri Light;
+}
+.images_in_test{
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Images_back{
+  background-image: url("../images/Morning_mountains.jpg");
+  width: 100%;
+  min-width: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 10px;
+  color: rgb(250, 248, 243);
+  text-shadow: 0px 0px 3px rgb(244, 242, 239);
+}

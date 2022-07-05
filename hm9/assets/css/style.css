@@ -1,0 +1,10 @@
+
+
+.first  p{
+text-align: justify;
+}
+
+.card_container{
+    margin: 25px auto;
+    width: calc((100% - 2 * 50px) / 3);
+}

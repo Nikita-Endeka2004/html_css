@@ -1,0 +1,39 @@
+
+.Zagolovok_1 {
+    text-align:center;
+    color: rgb(250, 248, 243);
+    text-shadow: 0px 0px 3px rgb(244, 242, 239);
+}
+button{
+    border: 4px black;  
+    padding: 5px; 
+    border-radius: 3px;
+}
+.Key_1{
+    color: rgb(250, 248, 243);
+    margin-left: 30px;
+    background: rgb(54, 54, 241);
+}
+.Key_2{
+    color: rgb(250, 248, 243);
+    background: rgb(247, 111, 61);
+}
+.Text_1{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:justify;
+}
+.Redaction_text{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:justify;
+}
+body{
+    width: 600px;
+    margin: auto;
+    background: rgb(36,0,24);
+    background: linear-gradient(125deg,rgba(54,81,217),rgba(207,56,148) );
+}
+p{
+    color: rgb(250, 248, 243);
+}
