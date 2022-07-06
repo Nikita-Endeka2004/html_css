@@ -96,6 +96,10 @@ img{
     padding-top: 80px;
 }
 
+.Contributions > p:nth-child(2){
+    color: gray;
+}
+
 .Followers{
     text-align: center;
     width: 200px;
@@ -110,6 +114,10 @@ img{
     padding-top: 80px;
 }
 
+.Followers > p:nth-child(2){
+    color: gray;
+}
+
 .Repositories{
     text-align: center;
     width: 200px;
@@ -122,6 +130,10 @@ img{
     color: #2EE59D;
     font-size: 23px;
     padding-top: 80px;
+}
+
+.Repositories > p:nth-child(2){
+    color: gray;
 }
 
 .all_report{
